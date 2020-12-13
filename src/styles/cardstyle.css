@@ -1,0 +1,63 @@
+.card{
+    display:flex;
+    width: 325px;
+    height: 475px;
+
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.card-parte-1{
+    display:flex;
+    width: 325px;
+    height: 475px;
+
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.card-parte-2{
+    display:flex;
+    width: 325px;
+    height: 475px;
+    background-color: lightblue;
+    z-index:1;
+
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.card-fundo{
+    width: stretch;
+    height: stretch;
+}
+
+.caixa-retrato{
+    width: 100px;
+    height: 135px;
+}
+
+.card-retrato{
+    width: 100%;
+    height: 100%;
+}
+
+.caixa-info{
+    display:flex;
+    width: 275px;
+    height: 100px;
+    text-align:justify;
+    word-break: break-all;
+    padding:25px;
+
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
