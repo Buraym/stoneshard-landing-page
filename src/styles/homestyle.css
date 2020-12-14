@@ -190,10 +190,9 @@
 .caixa-personagens{
     display: flex;
     width: 100vw;
-    height: 1850px;
+    height: 1500px;
     overflow:wrap;
     padding-bottom: 125px;
-    background-color:;
 
     justify-content: flex-start;
     align-items: center;
@@ -204,18 +203,20 @@
 .caixa-personagens-titulo{
     display: flex;
     width: 100vw;
-    min-height: 200px;
+    min-height: 50px;
 }
 
 .caixa-cards-personagem{
     display:flex;
     width: 100vw;
-    height: 1500px;
+    height: 800px;
+    margin-top:-600px;
 
     justify-content: center;
     align-items: center;
-    align-content: center;
-    flex-direction:column;
+    align-content: flex-start;
+    flex-direction:row;
+    flex-wrap:wrap;
 }
 
 .imagem2{
@@ -242,6 +243,7 @@
     display: flex;
     width: 100vw;
     min-height: 800px;
+    padding-top:200px;
 
     justify-content: flex-start;
     align-items: center;

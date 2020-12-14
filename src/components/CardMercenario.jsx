@@ -10,14 +10,24 @@ function CardMercenario(props){
                     <img className="card-retrato" src={ props.retrato } />
                 </div>
                 <div className="caixa-info">
-                    <div className="caixa-info-especial ">
+                    <div className="caixa-info-especial">
                         <label className="info-nome"> { props.nome } </label>
                         <label className="info-passado"> { props.passado } </label>
                     </div>
-                    <label className="info-raca"> { props.raca } </label>
-                    <label className="info-genero"> { props.genero } </label>
-                    <label className="info-peculiaridade"> { props.peculiaridade } </label>
-                    <label className="info-afinidade"> { props.afinidade } </label>
+                    <div className="caixa-info-secundaria">
+                        <div>
+                            <label className="info-raca"> Raça: { props.raca } </label>
+                        </div>
+                        <div>
+                            <label className="info-genero"> Gênero: { props.genero } </label>
+                        </div>
+                        <div>
+                            <label className="info-peculiaridade"> Característica: { props.peculiaridade } </label>
+                        </div>
+                        <div>
+                            <label className="info-afinidade"> Afinidade: { props.afinidade } </label>
+                        </div>
+                    </div>
                 </div>
                 <div className="caixa-bio">
                     <p className="bio1">

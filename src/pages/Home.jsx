@@ -93,43 +93,46 @@ function Home(){
                 </div>
                 <div className="caixa-cards-personagem">
                     <div className="caixa-personagens-1">
-                        {/*<CardMercenario 
+                        <CardMercenario 
                             retrato={Jorgrim}
                             nome="Jorgrim"
-                        passado="Salteador"
-                    />*/}
+                            passado="Salteador"
+                        />
                     </div>
                     <div className="caixa-personagens-2">
-                        {/*<CardMercenario
-                        retrato={Arna}
-                        nome="Arna"
-                        passado="Dama Cavalheira"
-                        />*/}
+                        <CardMercenario
+                            retrato={Arna}
+                            nome="Arna"
+                            passado="Dama Cavalheira"
+                        />
                     </div>
                     <div className="caixa-personagens-3">
-                        {/*<CardMercenario
-                        retrato={Dirwin}
-                        nome="Dirwin"
-                        passado="Guarda Florestal"
-                        />*/}
+                        <CardMercenario
+                            retrato={Dirwin}
+                            nome="Dirwin"
+                            passado="Guarda Florestal"
+                        />
                     </div>
                     <div className="caixa-personagens-4">
-                        {/*<CardMercenario
-                        retrato={Velmir}
-                        nome="Velmir"
-                        passado="Vingador"/>*/}
+                        <CardMercenario
+                            retrato={Velmir}
+                            nome="Velmir"
+                            passado="Vingador"
+                        />
                     </div>
                     <div className="caixa-personagens-5">
-                        {/*<CardMercenario
-                        retrato={Jonna}
-                        nome="Jonna"
-                        passado="Feiticeira"/>*/}
+                        <CardMercenario
+                            retrato={Jonna}
+                            nome="Jonna"
+                            passado="Feiticeira"
+                        />
                     </div>
                     <div className="caixa-personagens-6">
-                        {/*<CardMercenario
-                        retrato={Verren}
-                        nome="Verren"
-                        passado="Caçador de Relíquias"/>*/}
+                        <CardMercenario
+                            retrato={Verren}
+                            nome="Verren"
+                            passado="Caçador de Relíquias"
+                        />
                     </div>
                 </div>
             </div>
