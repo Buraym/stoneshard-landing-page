@@ -1,13 +1,11 @@
-import '../styles/homestyle.css';
+import '../styles/cardstyle.css';
 import CardFundo from '../assets/card-1.png';
 
 function CardMercenario(props){
     return(
         <div className="card">
-            <div className="card-parte-1">
-                <img className="card-fundo" src={CardFundo} />
-            </div>
-            <div className="card-parte-2">
+            <img className="card-fundo" src={CardFundo} />
+            <div className="card-parte-info">
                 <div className="caixa-retrato">
                     <img className="card-retrato" src={ props.retrato } />
                 </div>

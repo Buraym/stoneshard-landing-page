@@ -3,36 +3,48 @@
         "id":"01",
         "nome":"Jorgrim",
         "passado":"Salteador",
-        "raca":"Anão"
+        "raca":"Anão",
+        "caracteristica":"Frenesi Berserker",
+        "afinidade":["Espadas", "Armas Duplas", "Machados", "Escudos", "Maestria de Combate"]
     },
     {
         "id":"02",
         "nome":"Arna",
         "passado":"Salteador",
-        "raca":"Humano"
+        "raca":"Humano",
+        "caracteristica":"Voto de Proeza",
+        "afinidade":["Espadas", "Maças", "Espada de Duas Mãos", "Escudos", "Maestria de Combate"]
     },
     {
         "id":"03",
         "nome":"Dirwin",
-        "passado":"Dama Cavalheira",
-        "raca":"Humano"
+        "passado":"Guarda Florestal",
+        "raca":"Humano",
+        "caracteristica":"Olho Afiado",
+        "afinidade":["Adagas", "Bastão", "Armas de Longo Alcance", "Machados", "Atletismo"]
     },
     {
         "id":"04",
         "nome":"Velmir",
         "passado":"Vingador",
-        "raca":"Humano(Skadia)"
+        "raca":"Humano(Skadia)",
+        "caracteristica":"Para Cada Um",
+        "afinidade":["Lanças", "Maças", "Armas de Longo Alcance", "Atletismo", "Maestria de Combate"]
     },
     {
         "id":"05",
         "nome":"Jonna",
         "passado":"Feiticeira",
-        "raca":"Humano"
+        "raca":"Humano",
+        "caracteristica":"Conhecimento Arcano",
+        "afinidade":["Piromancia", "Geomancia", "Adagas", "Machados", "Atletismo"]
     },
     {
         "id":"06",
         "nome":"Verren",
         "passado":"Caçador de reliquias",
-        "raca":"Humano"
+        "raca":"Humano",
+        "caracteristica":"Conhecimento de Artefato",
+        "afinidade":"Nenhuma"
     }
 ]

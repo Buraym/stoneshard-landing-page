@@ -1,22 +1,27 @@
+*{
+    font-family:"roboto", "cursive";
+}
+
 ::-webkit-scrollbar-track {
     background: transparent;
+    width:0px;
+    height:0px;
 }
 
 ::-webkit-scrollbar {
     background: transparent;
+    width:0px;
     height:0px;
 }
 
 ::-webkit-scrollbar-thumb {
     background: transparent;
-    height:0px;
 }
 
 .conteudo-home{
     display: flex;
     width: 100vw;
-    height: 100vh;
-
+    height: 3500px;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
@@ -73,10 +78,30 @@
     color:white;
 }
 
-.caixa-historia{
-    display: flex;
-    width: 100vw;
-    height: 600px;
+.caixa-produto{
+    width:100vw;
+    height:850px;
+    padding-bottom:125px;
+}
+
+.caixa-produto-inferior{
+    width:100vw;
+    height:700px;
+}
+
+.foto-fundo{
+    width:100vw;
+    height:700px;
+    border-radius: 0px 0px 80px 80px;
+}
+
+.caixa-produto-centro{
+    display:flex;
+    position: relative;
+    width:100vw;
+    height:350px;
+    z-index:1;
+    margin-top: -30%;
 
     justify-content: space-evenly;
     align-items: center;
@@ -84,7 +109,60 @@
     flex-direction: column;
 }
 
+.produto-titulo{
+    font-size:60px;
+    color:whitesmoke;
+    font-family: 'Langar', cursive;
+}
+
+.caixa-produto-botao{
+    display:flex;
+    width: 30vw;
+    height: 100px;
+    font-size:40px;
+
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.produto-botao{
+    width: 175px;
+    height: 75px;
+    color:white;
+    border: 3px solid white;
+    border-radius:30px;
+    background-color:transparent;
+    transition:0.3s ease-in-out;
+    outline:none;
+}
+
+.produto-botao:hover{
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+.produto-botao-texto{
+    font-size:25px;
+}
+
+.caixa-historia{
+    display: flex;
+    width: 100vw;
+    height: 1050px;
+    padding-bottom: 150px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.imagem1{
+    border-radius:80px 80px 30px 30px;
+}
+
 .historia-titulo{
+    font-family: 'Langar', cursive;
     font-size:40px;
 }
 
@@ -102,17 +180,20 @@
 }
 
 .historia-texto-1{
-    font-size:20px;
+    font-size:25px;
 }
 
 .historia-texto-2{
-    font-size:20px;
+    font-size:25px;
 }
 
 .caixa-personagens{
     display: flex;
     width: 100vw;
-    height: 800px;
+    height: 1850px;
+    overflow:wrap;
+    padding-bottom: 125px;
+    background-color:;
 
     justify-content: flex-start;
     align-items: center;
@@ -123,6 +204,28 @@
 .caixa-personagens-titulo{
     display: flex;
     width: 100vw;
+    min-height: 200px;
+}
+
+.caixa-cards-personagem{
+    display:flex;
+    width: 100vw;
+    height: 1500px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.imagem2{
+    border-radius:80px 80px 30px 30px;
+}
+
+.caixa-personagens-titulo{
+    display: flex;
+    width: 100vw;
+    height: stretch;
 
     justify-content: flex-start;
     align-items: center;
@@ -131,5 +234,65 @@
 }
 
 .personagens-titulo{
+    font-family: 'Langar', cursive;
     font-size:40px;
+}
+
+.caixa-conteudo{
+    display: flex;
+    width: 100vw;
+    min-height: 800px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.caixa-conteudo-titulo{
+    font-family: 'Langar', cursive;
+    font-size: 40px;
+}
+
+.caixa-conteudo-texto{
+    display: flex;
+    width: 100vw;
+    height: 500px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.caixa-inscricao-home{
+    display: flex;
+    width: 100vw;
+    min-height: 550px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.caixa-inscricao-titulo{
+    font-family: 'Langar', cursive;
+    font-size: 40px;
+}
+
+
+.footer-caixa{
+    display: flex;
+    width: 100vw;
+    min-height: 150px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.icone{
+    color: #8338ec;
 }
