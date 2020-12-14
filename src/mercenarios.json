@@ -4,46 +4,52 @@
         "nome":"Jorgrim",
         "passado":"Salteador",
         "raca":"Anão",
+        "genero":"Masculino",
         "caracteristica":"Frenesi Berserker",
-        "afinidade":["Espadas", "Armas Duplas", "Machados", "Escudos", "Maestria de Combate"]
+        "afinidade":["Espadas, Armas Duplas, Machados, Escudos, Maestria de Combate"]
     },
     {
         "id":"02",
         "nome":"Arna",
-        "passado":"Salteador",
+        "passado":"Dama Cavalheira",
         "raca":"Humano",
+        "genero":"Feminino",
         "caracteristica":"Voto de Proeza",
-        "afinidade":["Espadas", "Maças", "Espada de Duas Mãos", "Escudos", "Maestria de Combate"]
+        "afinidade":["Espadas, Maças, Espada de Duas Mãos, Escudos, Maestria de Combate"]
     },
     {
         "id":"03",
         "nome":"Dirwin",
         "passado":"Guarda Florestal",
         "raca":"Humano",
+        "genero":"Masculino",
         "caracteristica":"Olho Afiado",
-        "afinidade":["Adagas", "Bastão", "Armas de Longo Alcance", "Machados", "Atletismo"]
+        "afinidade":["Adagas, Bastão, Armas de Longo Alcance, Machados, Atletismo"]
     },
     {
         "id":"04",
         "nome":"Velmir",
         "passado":"Vingador",
         "raca":"Humano(Skadia)",
+        "genero":"Masculino",
         "caracteristica":"Para Cada Um",
-        "afinidade":["Lanças", "Maças", "Armas de Longo Alcance", "Atletismo", "Maestria de Combate"]
+        "afinidade":["Lanças, Maças, Armas de Longo Alcance, Atletismo, Maestria de Combate"]
     },
     {
         "id":"05",
         "nome":"Jonna",
         "passado":"Feiticeira",
         "raca":"Humano",
+        "genero":"Feminino",
         "caracteristica":"Conhecimento Arcano",
-        "afinidade":["Piromancia", "Geomancia", "Adagas", "Machados", "Atletismo"]
+        "afinidade":["Piromancia, Geomancia, Adagas, Bastão, Atletismo"]
     },
     {
         "id":"06",
         "nome":"Verren",
         "passado":"Caçador de reliquias",
         "raca":"Humano",
+        "genero":"Masculino",
         "caracteristica":"Conhecimento de Artefato",
         "afinidade":"Nenhuma"
     }

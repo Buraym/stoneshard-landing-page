@@ -41,6 +41,7 @@
 
 .header-fundo{
     width: stretch;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6) 10%);
 }
 
 .header-menu{
@@ -93,6 +94,7 @@
     width:100vw;
     height:700px;
     border-radius: 0px 0px 80px 80px;
+    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,2)), to(rgba(255,255,255,0.001)));
 }
 
 .caixa-produto-centro{
@@ -192,7 +194,7 @@
     width: 100vw;
     height: 1500px;
     overflow:wrap;
-    padding-bottom: 125px;
+    padding-bottom: 225px;
 
     justify-content: flex-start;
     align-items: center;
@@ -210,7 +212,7 @@
     display:flex;
     width: 100vw;
     height: 800px;
-    margin-top:-600px;
+    margin-top:-70%;
 
     justify-content: center;
     align-items: center;
@@ -242,8 +244,9 @@
 .caixa-conteudo{
     display: flex;
     width: 100vw;
-    min-height: 800px;
+    height: 1500px;
     padding-top:200px;
+    padding-bottom:2600px;
 
     justify-content: flex-start;
     align-items: center;
@@ -251,9 +254,61 @@
     flex-direction: column;
 }
 
+.caixa-conteudo-1{
+    display: flex;
+    width: 80vw;
+    height: 5000px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.caixa-conteudo-2{
+    display: flex;
+    width: 100vw;
+    height: 1200px;
+    margin-bottom:-50%;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.caixa-itens{
+    width: 100vw;
+    height: 1150px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column
+}
+
+.caixa-conteudo-3{
+    display: flex;
+    width: 100vw;
+    height: 300px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.subtitulo-conteudo{
+    font-size:30px;
+}
+
 .caixa-conteudo-titulo{
+    display:flex;
+    width:100vw;
+    height:275px;
     font-family: 'Langar', cursive;
     font-size: 40px;
+
+    justify-content:center
 }
 
 .caixa-conteudo-texto{
@@ -267,22 +322,71 @@
     flex-direction: column;
 }
 
+.caixa-conteudo-screenshots{
+    display: flex;
+    width: 100vw;
+    height: stretch;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.screenshot1{
+    width: 450px;
+    height: 450px;
+    padding:2px;
+    border-radius:60px;
+}
+
+.screenshot2{
+    width: 100vw;
+    height: 500px;
+    border-radius:60px;
+}
+
+.item{
+    width: 400px;
+    height: 350px;
+    border-radius:60px;
+}
+
 .caixa-inscricao-home{
     display: flex;
     width: 100vw;
     min-height: 550px;
+    text-align:center;
 
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     align-content: center;
     flex-direction: column;
 }
 
 .caixa-inscricao-titulo{
+    width: 100vw;
     font-family: 'Langar', cursive;
     font-size: 40px;
+    padding-bottom: 30px;
 }
 
+.botao-inscricao-home{
+    width: 275px;
+    height: 50px;
+    background-color: #8338ec;
+    color:white;
+    border: 3px solid #8338ec;
+    border-radius:30px;
+    transition:0.3s ease-in-out;
+    font-size:18px;
+}
+
+.botao-inscricao-home:hover{
+    background-color: white;
+    color: #8338ec;
+}
 
 .footer-caixa{
     display: flex;
@@ -296,5 +400,23 @@
 }
 
 .icone{
+    color: #8338ec;
+}
+
+.caixa-redes-sociais{
+    display: flex;
+    width: 300px;
+    min-height: 100%;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.caixa-contatos{
+    color: #8338ec;
+}
+
+.caixa-contribuicoes{
     color: #8338ec;
 }

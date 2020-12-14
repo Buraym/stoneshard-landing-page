@@ -22,7 +22,7 @@ function CardMercenario(props){
                             <label className="info-genero"> Gênero: { props.genero } </label>
                         </div>
                         <div>
-                            <label className="info-peculiaridade"> Característica: { props.peculiaridade } </label>
+                            <label className="info-peculiaridade"> Característica: { props.caracteristica } </label>
                         </div>
                         <div>
                             <label className="info-afinidade"> Afinidade: { props.afinidade } </label>

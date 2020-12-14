@@ -4,8 +4,8 @@
 
 .card{
     display:flex;
-    width: 375px;
-    height: 575px;
+    width: 325px;
+    height: 675px;
     padding-left:60px;
 
     justify-content:space-evenly;
@@ -37,7 +37,7 @@
 .caixa-retrato{
     width: 125px;
     height: 175px;
-    margin-top:-200px;
+    margin-top:-300px;
     padding-bottom:10px;
 }
 
@@ -66,6 +66,7 @@
     height: 35px;
     margin-top:-10px;
     padding-bottom:30px;
+    margin-top:-20%;
 
     justify-content:flex-start;
     align-items: center;
@@ -85,6 +86,8 @@
 
 .caixa-info-secundaria{
     display:flex;
+    width: 275px;
+    height: 100px;
     font-size:20px;
     color: #8d99ae;
 
