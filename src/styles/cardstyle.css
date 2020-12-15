@@ -1,0 +1,110 @@
+*{
+    font-family:'roboto';
+}
+
+.card{
+    display:flex;
+    width: 325px;
+    height: 675px;
+    padding-left:60px;
+
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.card-fundo{
+    width: 100%;
+    height: 100%;
+    margin-bottom:-40%;
+}
+
+.card-parte-info{
+    display:flex;
+    width: 275px;
+    height: 475px;
+    color: black;
+    margin-top:-40%;
+    z-index:1;
+
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.caixa-retrato{
+    width: 125px;
+    height: 175px;
+    margin-top:-300px;
+    padding-bottom:10px;
+}
+
+.card-retrato{
+    width: 100%;
+    height: 100%;
+}
+
+.caixa-info{
+    display:flex;
+    width: 325px;
+    height: 100px;
+    text-align:justify;
+    word-break: break-all;
+    z-index:1;
+
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.caixa-info-especial{
+    display:flex;
+    width: 275px;
+    height: 35px;
+    margin-top:-10px;
+    padding-bottom:30px;
+    margin-top:-20%;
+
+    justify-content:flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.info-nome{
+    font-size:30px;
+    color: #dc2f02;
+    padding-bottom:5px;
+}
+.info-passado{
+    font-size:20px;
+    color: #8d99ae;
+}
+
+.caixa-info-secundaria{
+    display:flex;
+    width: 275px;
+    height: 100px;
+    font-size:20px;
+    color: #8d99ae;
+
+    justify-content:flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction:column;
+}
+
+.caixa-bio{
+    display:flex;
+    width: 275px;
+    height: 100px;
+    visibility: hidden;
+
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}

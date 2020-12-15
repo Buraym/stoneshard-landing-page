@@ -1,0 +1,421 @@
+*{
+    font-family:"roboto", "cursive";
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    width:0px;
+    height:0px;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    width:0px;
+    height:0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.conteudo-home{
+    display: flex;
+    width: 100vw;
+    height: 3500px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    width: 100vw;
+    height: 175px;
+    padding-bottom:50px;
+
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.header-fundo{
+    width: stretch;
+}
+
+.header-menu{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+}
+
+.header-logo{
+    z-index:1;
+    margin-top: -17%;
+}
+
+.header-lista{
+    display: flex;
+    width: 50%;
+    height: 40%;
+    list-style:none;
+    z-index:1;
+    margin-top: -20%;
+    font-size:20px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.header-lista-texto{
+    color:white;
+}
+
+.caixa-produto{
+    width:100vw;
+    height:850px;
+    padding-bottom:125px;
+}
+
+.caixa-produto-inferior{
+    width:100vw;
+    height:700px;
+}
+
+.foto-fundo{
+    width:100vw;
+    height:700px;
+    border-radius: 0px 0px 80px 80px;
+    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,2)), to(rgba(255,255,255,0.001)));
+}
+
+.caixa-produto-centro{
+    display:flex;
+    position: relative;
+    width:100vw;
+    height:350px;
+    z-index:1;
+    margin-top: -30%;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.produto-titulo{
+    font-size:60px;
+    color:whitesmoke;
+    font-family: 'Langar', cursive;
+}
+
+.caixa-produto-botao{
+    display:flex;
+    width: 30vw;
+    height: 100px;
+    font-size:40px;
+
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.produto-botao{
+    width: 175px;
+    height: 75px;
+    color:white;
+    border: 3px solid white;
+    border-radius:30px;
+    background-color:transparent;
+    transition:0.3s ease-in-out;
+    outline:none;
+}
+
+.produto-botao:hover{
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+.produto-botao-texto{
+    font-size:25px;
+}
+
+.caixa-historia{
+    display: flex;
+    width: 100vw;
+    height: 1050px;
+    padding-bottom: 150px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.imagem1{
+    border-radius:80px 80px 30px 30px;
+}
+
+.historia-titulo{
+    font-family: 'Langar', cursive;
+    font-size:40px;
+}
+
+.caixa-historia-texto{
+    display: flex;
+    width: 90vw;
+    height: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.historia-texto-1{
+    font-size:25px;
+}
+
+.historia-texto-2{
+    font-size:25px;
+}
+
+.caixa-personagens{
+    display: flex;
+    width: 100vw;
+    height: 1500px;
+    overflow:wrap;
+    padding-bottom: 225px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.caixa-personagens-titulo{
+    display: flex;
+    width: 100vw;
+    min-height: 50px;
+}
+
+.caixa-cards-personagem{
+    display:flex;
+    width: 100vw;
+    height: 800px;
+    margin-top:-70%;
+
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.imagem2{
+    border-radius:80px 80px 30px 30px;
+}
+
+.caixa-personagens-titulo{
+    display: flex;
+    width: 100vw;
+    height: stretch;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.personagens-titulo{
+    font-family: 'Langar', cursive;
+    font-size:40px;
+}
+
+.caixa-conteudo{
+    display: flex;
+    width: 100vw;
+    height: 1500px;
+    padding-top:200px;
+    padding-bottom:2600px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.caixa-conteudo-1{
+    display: flex;
+    width: 80vw;
+    height: 5000px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.caixa-conteudo-2{
+    display: flex;
+    width: 100vw;
+    height: 1200px;
+    margin-bottom:-50%;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.caixa-itens{
+    width: 100vw;
+    height: 1150px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column
+}
+
+.caixa-conteudo-3{
+    display: flex;
+    width: 100vw;
+    height: 300px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.subtitulo-conteudo{
+    font-size:30px;
+}
+
+.caixa-conteudo-titulo{
+    display:flex;
+    width:100vw;
+    height:275px;
+    font-family: 'Langar', cursive;
+    font-size: 40px;
+
+    justify-content:center
+}
+
+.caixa-conteudo-texto{
+    display: flex;
+    width: 100vw;
+    height: 500px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.caixa-conteudo-screenshots{
+    display: flex;
+    width: 100vw;
+    height: stretch;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.screenshot1{
+    width: 450px;
+    height: 450px;
+    padding:2px;
+    border-radius:60px;
+}
+
+.screenshot2{
+    width: 100vw;
+    height: 500px;
+    border-radius:60px;
+}
+
+.item{
+    width: 400px;
+    height: 350px;
+    border-radius:60px;
+}
+
+.caixa-inscricao-home{
+    display: flex;
+    width: 100vw;
+    min-height: 550px;
+    text-align:center;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.caixa-inscricao-titulo{
+    width: 100vw;
+    font-family: 'Langar', cursive;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.botao-inscricao-home{
+    width: 275px;
+    height: 50px;
+    background-color: #8338ec;
+    color:white;
+    border: 3px solid #8338ec;
+    border-radius:30px;
+    transition:0.3s ease-in-out;
+    font-size:18px;
+}
+
+.botao-inscricao-home:hover{
+    background-color: white;
+    color: #8338ec;
+}
+
+.footer-caixa{
+    display: flex;
+    width: 100vw;
+    min-height: 150px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.icone{
+    color: #8338ec;
+}
+
+.caixa-redes-sociais{
+    display: flex;
+    width: 300px;
+    min-height: 100%;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.caixa-contatos{
+    color: #8338ec;
+}
+
+.caixa-contribuicoes{
+    color: #8338ec;
+}
