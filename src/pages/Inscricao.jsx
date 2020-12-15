@@ -1,3 +1,4 @@
+import { useState } from "react";
 import '../styles/inscricaostyle.css';
 import HeaderFundo from '../assets/header-fundo.svg';
 import Logo from '../assets/logo.png';
@@ -9,12 +10,37 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 
 function Inscricao(){
 
-    function onChange(){
-        return(  null  );
+    const [nome, setNome] = useState("");
+    const [email, setEmail] = useState("");
+    const [telefone, setTelefone] = useState("");
+    const [data, setData] = useState("");
+
+    var chat_texto = {
+        nome: nome,
+        email: email,
+        telefone: telefone,
+        data: data
     }
 
-    function onSubmit(){
-        return(  null  );
+    function handleSubmit(event){
+        console.log("Nome: ",chat_texto.nome," | Email: ",chat_texto.email," | Telefone: ",chat_texto.email," | Data de Nascimento: ",chat_texto.data," |");
+        event.preventDefault();
+    }
+
+    function handleChangeNome(e){
+        setNome(e.target.value);
+    }
+
+    function handleChangeEmail(e){
+        setEmail(e.target.value);
+    }
+
+    function handleChangeTelefone(e){
+        setTelefone(e.target.value);
+    }
+
+    function handleChangeData(e){
+        setData(e.target.value);
     }
 
     return(
@@ -36,26 +62,22 @@ function Inscricao(){
                 <div className="caixa-conteudo-titulo">
                     <h3> Inscrição </h3>
                 </div>
-                <div className="caixa-formulario">
-                    Nome: 
-                    <input className="input" type="text"/>
-                    E-mail: 
-                    <input className="input" type="text"/>
-                    Telefone: 
-                    <input className="input" type="text"/>
-                    Data de Nascimento: 
-                    <input className="input" type="text"/>
-                    <div>
-                        <Checkbox color="primary"/>
-                        Receber Newsletter sobre as últimas atualizações ?
-                    </div>
-                    <Link to="">
-                        <button className="botao-inscrever">
-                            <label className="botao-inscrever-texto">
-                                Se inscrever
-                            </label>
-                        </button>
-                    </Link>
+                <div>
+                    <form className="caixa-formulario"onSubmit={handleSubmit}>
+                        Nome: 
+                        <input className="input" type="text" onChange={handleChangeNome}/>
+                        E-mail: 
+                        <input className="input" type="text" onChange={handleChangeEmail}/>
+                        Telefone: 
+                        <input className="input" type="text" onChange={handleChangeTelefone}/>
+                        Data de Nascimento: 
+                        <input className="input" type="text" onChange={handleChangeData}/>
+                        <div>
+                            <Checkbox color="primary"/>
+                            Receber Newsletter sobre as últimas atualizações ?
+                        </div>
+                        <input className="botao-inscrever-texto" type="submit"/>
+                    </form>
                 </div>
             </div>
             <footer className="footer-caixa">

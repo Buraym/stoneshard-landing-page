@@ -62,7 +62,7 @@
 .caixa-inscricao{
     display: flex;
     width: 100vw;
-    height: 800px;;
+    height: 800px;
 
     justify-content: space-evenly;
     align-items: center;
@@ -74,6 +74,7 @@
     display: flex;
     width: 100vw;
     height: 400px;
+    margin-top:-150px;
 
     justify-content: space-evenly;
     align-items: center;
@@ -101,27 +102,21 @@
     padding-left:15px;
 }
 
-.botao-inscrever{
-    width: 400px;
-    height: 100x;
-    outline:none;
-    background-color: #8338ec;
-    border: 3px solid #8338ec;
-    border-radius:30px;
-    transition:0.3s ease-in-out;
-}
-
-.botao-inscrever:hover {
-    background-color: white;
-}
-
-.botao-inscrever:hover .botao-inscrever-texto{
-    color: #8338ec;
-}
-
 .botao-inscrever-texto{
+    width:300px;
+    height:35px;
     font-size:20px;
     color:white;
+    outline:none;
+    border-radius:30px;
+    background-color: #8338ec;
+    border: 3px solid #8338ec;
+    transition: 0.3s ease-in-out;
+}
+
+.botao-inscrever-texto:hover{
+    background-color: white;
+    color: #8338ec;
 }
 
 .footer-caixa{

@@ -20,14 +20,6 @@ import ScreenShot5 from '../assets/locations/brynn-3.png';
 import ScreenShot6 from '../assets/locations/locations-1.png';
 import ScreenShot7 from '../assets/locations/locations-2.png';
 import ScreenShot8 from '../assets/locations/locations-3.png';
-
-import Clothes1 from '../assets/clothes/clothes-1.png';
-import Clothes2 from '../assets/clothes/clothes-2.png';
-import Clothes3 from '../assets/clothes/clothes-3.png';
-import Weapon1 from '../assets/weapons/weapons-1.png';
-import Weapon2 from '../assets/weapons/weapons-2.png'
-import Weapon3 from '../assets/weapons/weapons-3.png'
-
 import Roadmap from '../assets/roadmap.png';
 
 import FacebookIcon from '@material-ui/icons/Facebook';
