@@ -1,0 +1,132 @@
+.conteudo-home{
+    display: flex;
+    width: 100vw;
+    height: 1200px;
+
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    width: 100vw;
+    height: 175px;
+    padding-bottom:50px;
+
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.header-fundo{
+    width: stretch;
+}
+
+.header-menu{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+}
+
+.header-logo{
+    z-index:1;
+    margin-top: -17%;
+}
+
+.header-lista{
+    display: flex;
+    width: 50%;
+    height: 40%;
+    list-style:none;
+    z-index:1;
+    margin-top: -20%;
+    font-size:20px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.header-lista-texto{
+    color:white;
+}
+
+.caixa-inscricao{
+    display: flex;
+    width: 100vw;
+    height: 800px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.caixa-formulario{
+    display: flex;
+    width: 100vw;
+    height: 400px;
+    margin-top:-150px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.formulario{
+    display: flex;
+    width: 100vw;
+    height: 400px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.input{
+    width: 400px;
+    height: 100x;
+    outline:none;
+    border: 3px solid #8338ec;
+    border-radius:30px;
+    padding-left:15px;
+}
+
+.botao-inscrever-texto{
+    width:300px;
+    height:35px;
+    font-size:20px;
+    color:white;
+    outline:none;
+    border-radius:30px;
+    background-color: #8338ec;
+    border: 3px solid #8338ec;
+    transition: 0.3s ease-in-out;
+}
+
+.botao-inscrever-texto:hover{
+    background-color: white;
+    color: #8338ec;
+}
+
+.footer-caixa{
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    background-color: #03045e;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
