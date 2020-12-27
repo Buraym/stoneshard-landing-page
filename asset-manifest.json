@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/stoneshard-landing-page/static/css/main.abf6c452.chunk.css",
+    "main.js": "/stoneshard-landing-page/static/js/main.793bc6a4.chunk.js",
+    "main.js.map": "/stoneshard-landing-page/static/js/main.793bc6a4.chunk.js.map",
+    "runtime-main.js": "/stoneshard-landing-page/static/js/runtime-main.c7392892.js",
+    "runtime-main.js.map": "/stoneshard-landing-page/static/js/runtime-main.c7392892.js.map",
+    "static/js/2.a5687ea6.chunk.js": "/stoneshard-landing-page/static/js/2.a5687ea6.chunk.js",
+    "static/js/2.a5687ea6.chunk.js.map": "/stoneshard-landing-page/static/js/2.a5687ea6.chunk.js.map",
+    "static/js/3.52e27414.chunk.js": "/stoneshard-landing-page/static/js/3.52e27414.chunk.js",
+    "static/js/3.52e27414.chunk.js.map": "/stoneshard-landing-page/static/js/3.52e27414.chunk.js.map",
+    "index.html": "/stoneshard-landing-page/index.html",
+    "static/css/main.abf6c452.chunk.css.map": "/stoneshard-landing-page/static/css/main.abf6c452.chunk.css.map",
+    "static/js/2.a5687ea6.chunk.js.LICENSE.txt": "/stoneshard-landing-page/static/js/2.a5687ea6.chunk.js.LICENSE.txt",
+    "static/media/brynn-1.f1f33b7b.png": "/stoneshard-landing-page/static/media/brynn-1.f1f33b7b.png",
+    "static/media/brynn-2.bf6efb35.jpg": "/stoneshard-landing-page/static/media/brynn-2.bf6efb35.jpg",
+    "static/media/brynn-3.c667faa7.png": "/stoneshard-landing-page/static/media/brynn-3.c667faa7.png",
+    "static/media/footer-1.31d50fe5.png": "/stoneshard-landing-page/static/media/footer-1.31d50fe5.png",
+    "static/media/footer-2.936f9fde.png": "/stoneshard-landing-page/static/media/footer-2.936f9fde.png",
+    "static/media/header-fundo.349f8126.svg": "/stoneshard-landing-page/static/media/header-fundo.349f8126.svg",
+    "static/media/header.5b3dd0b9.jpg": "/stoneshard-landing-page/static/media/header.5b3dd0b9.jpg",
+    "static/media/locations-1.f3af225a.png": "/stoneshard-landing-page/static/media/locations-1.f3af225a.png",
+    "static/media/locations-3.2044f9bd.png": "/stoneshard-landing-page/static/media/locations-3.2044f9bd.png",
+    "static/media/roadmap.1ad031c0.png": "/stoneshard-landing-page/static/media/roadmap.1ad031c0.png",
+    "static/media/screenshot-2.db392a57.jpg": "/stoneshard-landing-page/static/media/screenshot-2.db392a57.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7392892.js",
+    "static/js/2.a5687ea6.chunk.js",
+    "static/css/main.abf6c452.chunk.css",
+    "static/js/main.793bc6a4.chunk.js"
+  ]
+}
