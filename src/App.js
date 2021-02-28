@@ -1,9 +1,8 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 import Home from './pages/Home';
-import Error404 from './pages/Error404';
 import Inscricao from './pages/Inscricao';
-import teste from './pages/teste';
+import Teste from './pages/teste';
 
 function App() {
   return (
@@ -11,6 +10,7 @@ function App() {
         <div>
           <Switch>
             <Route path="/" exact component={Home} />
+            <Route path="/teste" component={Teste} />
             <Route path='/pagina-stoneshard-steam' component={() => { 
               window.location.href = 'https://store.steampowered.com/app/625960/Stoneshard/'; 
               return null;
@@ -31,9 +31,8 @@ function App() {
               window.location.href = 'https://www.instagram.com/ink_stains_games/?hl=pt-br'; 
               return null;
             }}/>
-            <Route path="/inscricao" exact component={Inscricao} />
-            <Route path="/teste" exact component={teste} />
-            <Route path="*" component={Error404} />
+            <Route path="/inscricao" component={Inscricao} />
+            <Route path="*" component={Home} />
           </Switch>
         </div>
       </Router>

@@ -21,7 +21,7 @@
 .conteudo-home{
     display: flex;
     width: 100vw;
-    height: 3500px;
+    height:100vh;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
@@ -66,7 +66,6 @@
     list-style:none;
     z-index:1;
     margin-top: -20%;
-    font-size:20px;
 
     justify-content: space-evenly;
     align-items: center;
@@ -76,11 +75,11 @@
 
 .header-lista-texto{
     color:white;
+    font-size: 2.5vw;
 }
 
 .caixa-produto{
     width:100vw;
-    height:850px;
     padding-bottom:125px;
 }
 
@@ -102,7 +101,7 @@
     width:100vw;
     height:350px;
     z-index:1;
-    margin-top: -30%;
+    margin-top: -400px;
 
     justify-content: space-evenly;
     align-items: center;
@@ -118,7 +117,7 @@
 
 .caixa-produto-botao{
     display:flex;
-    width: 30vw;
+    width: 50vw;
     height: 100px;
     font-size:40px;
 
@@ -129,7 +128,8 @@
 }
 
 .produto-botao{
-    width: 175px;
+    width: 17.5vw;
+    max-width: 175px;
     height: 75px;
     color:white;
     border: 3px solid white;
@@ -144,14 +144,12 @@
 }
 
 .produto-botao-texto{
-    font-size:25px;
+    font-size:2.5vw;
 }
 
 .caixa-historia{
     display: flex;
     width: 100vw;
-    height: 1050px;
-    padding-bottom: 150px;
 
     justify-content: space-evenly;
     align-items: center;
@@ -159,18 +157,18 @@
     flex-direction: column;
 }
 .imagem1{
+    width:50vw;
     border-radius:80px 80px 30px 30px;
 }
 
 .historia-titulo{
     font-family: 'Langar', cursive;
-    font-size:40px;
+    font-size:3vw;
 }
 
 .caixa-historia-texto{
     display: flex;
     width: 90vw;
-    height: 200px;
     padding-left: 40px;
     padding-right: 40px;
 
@@ -181,19 +179,20 @@
 }
 
 .historia-texto-1{
-    font-size:25px;
+    font-size:2.5vw;
 }
 
 .historia-texto-2{
-    font-size:25px;
+    font-size:2.5vw;
 }
 
 .caixa-personagens{
     display: flex;
     width: 100vw;
-    height: 1500px;
+    height: 40%;
     overflow:wrap;
     padding-bottom: 225px;
+    text-align: center;
 
     justify-content: flex-start;
     align-items: center;
@@ -207,11 +206,15 @@
     min-height: 50px;
 }
 
+.personagem-texto-1{
+    font-size:2.5vw;
+}
+
 .caixa-cards-personagem{
     display:flex;
     width: 100vw;
-    height: 800px;
-    margin-top:-70%;
+    height: 5%;
+    margin-top:-1100px;
 
     justify-content: center;
     align-items: center;
@@ -221,6 +224,7 @@
 }
 
 .imagem2{
+    width:50vw;
     border-radius:80px 80px 30px 30px;
 }
 
@@ -228,6 +232,7 @@
     display: flex;
     width: 100vw;
     height: stretch;
+    padding-bottom: 130px;
 
     justify-content: flex-start;
     align-items: center;
@@ -237,15 +242,16 @@
 
 .personagens-titulo{
     font-family: 'Langar', cursive;
-    font-size:40px;
+    font-size:3vw;
+    padding-top:-160px;
 }
 
 .caixa-conteudo{
     display: flex;
     width: 100vw;
     height: 1500px;
-    padding-top:200px;
-    padding-bottom:2600px;
+    padding-top:270px;
+    padding-bottom:2500px;
 
     justify-content: flex-start;
     align-items: center;
@@ -333,19 +339,6 @@
     flex-wrap: wrap;
 }
 
-.screenshot1{
-    width: 450px;
-    height: 450px;
-    padding:2px;
-    border-radius:60px;
-}
-
-.screenshot2{
-    width: 100vw;
-    height: 500px;
-    border-radius:60px;
-}
-
 .item{
     width: 400px;
     height: 350px;
@@ -400,6 +393,11 @@
 
 .icone{
     color: #8338ec;
+    transition: 3s ease-in-out;
+}
+
+.icone:hover {
+    color: #6600f5;
 }
 
 .caixa-redes-sociais{

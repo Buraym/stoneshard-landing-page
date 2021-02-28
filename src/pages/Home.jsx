@@ -5,21 +5,8 @@ import Logo from '../assets/logo.png';
 import FotoFundoHome from '../assets/footer/header.jpg';
 import Foto1 from '../assets/footer/footer-2.png';
 import Foto2 from '../assets/footer/footer-1.png';
-import CardMercenario from '../components/CardMercenario';
-import Jorgrim from '../assets/portrait/Jorgrim-portrait.png';
-import Arna from '../assets/portrait/Arna-portrait.png';
-import Dirwin from '../assets/portrait/Dirwin-portrait.png';
-import Velmir from '../assets/portrait/Velmir-portrait.png';
-import Jonna from '../assets/portrait/Jonna-portrait.png';
-import Verren from '../assets/portrait/Verren-portrait.png';
-
-import ScreenShot1 from '../assets/screenshots/screenshot-2.jpg';
-import ScreenShot3 from '../assets/locations/brynn-1.png';
-import ScreenShot4 from '../assets/locations/brynn-2.jpg';
-import ScreenShot5 from '../assets/locations/brynn-3.png';
-import ScreenShot6 from '../assets/locations/locations-1.png';
-import ScreenShot7 from '../assets/locations/locations-2.png';
-import ScreenShot8 from '../assets/locations/locations-3.png';
+import CarroselMercenario from '../components/CarroselMercenario';
+import CarroselScreenshot from '../components/CarroselScreenshot';
 import Roadmap from '../assets/roadmap.png';
 
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -41,9 +28,7 @@ function Home(){
 
     const conteudos = Data[2];
     var conteudotitulo = conteudos.titulo;
-    var conteudosubtitulo1 = conteudos.subtitulo1;
-    var conteudosubtitulo2 = conteudos.subtitulo2;
-    var conteudosubtitulo3 = conteudos.subtitulo3;
+    var conteudosubtitulo = conteudos.subtitulo1;
 
     const mercenario1 = Mercenarios[0];
     var nome1 = mercenario1.nome;
@@ -92,14 +77,15 @@ function Home(){
     var genero6 = mercenario6.genero;
     var caracteristica6 = mercenario6.caracteristica;
     var afinidade6 = mercenario6.afinidade;
+    console.log("blablabla");
 
 
     return(
         <div className="conteudo-home">
             <header className="header-caixa">
-                <img className="header-fundo" src={ HeaderFundo }/>
+                <img className="header-fundo" src={ HeaderFundo } alt="header fundo"/>
                 <div className="header-menu">
-                    <img className="header-logo" src={ Logo }/>
+                    <img className="header-logo" src={ Logo } alt="logo empresa"/>
                     <ul className="header-lista">
                         <li className="header-lista-texto"> História </li>
                         <li className="header-lista-texto"> Mercenários </li>
@@ -110,7 +96,7 @@ function Home(){
             </header>
             <div className="caixa-produto">
                 <div className="caixa-produto-inferior">
-                    <img className="foto-fundo" src={FotoFundoHome} />
+                    <img className="foto-fundo" src={FotoFundoHome} alt="produto capa"/>
                 </div>
                 <div className="caixa-produto-centro">
                     <h1 className="produto-titulo"> Stoneshard </h1>
@@ -129,7 +115,7 @@ function Home(){
                 </div>
             </div>
             <div className="caixa-historia">
-                <img className="imagem1" src={Foto1}/>
+                <img className="imagem1" src={Foto1} alt="foto historia"/>
                 <div>
                     <h3 className="historia-titulo"> { historiatitulo } </h3>
                 </div>
@@ -143,81 +129,14 @@ function Home(){
                 </div>
             </div>
             <div className="caixa-personagens">
-                <img className="imagem2" src={Foto2}/>
+                <img className="imagem2" src={Foto2} alt="foto mercenarios"/>
                 <div className="caixa-personagens-titulo">
                     <h3 className="personagens-titulo"> { mercenariostitulo } </h3>
-                    <p className="historia-texto-1">
+                    <p className="personagem-texto-1">
                         { mercenariostexto }
                     </p>
                 </div>
-                <div className="caixa-cards-personagem">
-                    <div className="caixa-personagens-1">
-                        <CardMercenario 
-                            retrato={Jorgrim}
-                            nome={nome1}
-                            passado={passado1}
-                            raca={raca1}
-                            genero={genero1}
-                            caracteristica={caracteristica1}
-                            afinidade={afinidade1}
-                        />
-                    </div>
-                    <div className="caixa-personagens-2">
-                        <CardMercenario
-                            retrato={Arna}
-                            nome={nome2}
-                            passado={passado2}
-                            raca={raca2}
-                            genero={genero2}
-                            caracteristica={caracteristica2}
-                            afinidade={afinidade2}
-                        />
-                    </div>
-                    <div className="caixa-personagens-3">
-                        <CardMercenario
-                            retrato={Dirwin}
-                            nome={nome3}
-                            passado={passado3}
-                            raca={raca3}
-                            genero={genero3}
-                            caracteristica={caracteristica3}
-                            afinidade={afinidade3}
-                        />
-                    </div>
-                    <div className="caixa-personagens-4">
-                        <CardMercenario
-                            retrato={Velmir}
-                            nome={nome4}
-                            passado={passado4}
-                            raca={raca4}
-                            genero={genero4}
-                            caracteristica={caracteristica4}
-                            afinidade={afinidade4}
-                        />
-                    </div>
-                    <div className="caixa-personagens-5">
-                        <CardMercenario
-                            retrato={Jonna}
-                            nome={nome5}
-                            passado={passado5}
-                            raca={raca5}
-                            genero={genero5}
-                            caracteristica={caracteristica5}
-                            afinidade={afinidade5}
-                        />
-                    </div>
-                    <div className="caixa-personagens-6">
-                        <CardMercenario
-                            retrato={Verren}
-                            nome={nome6}
-                            passado={passado6}
-                            raca={raca6}
-                            genero={genero6}
-                            caracteristica={caracteristica6}
-                            afinidade={afinidade6}
-                        />
-                    </div>
-                </div>
+                <CarroselMercenario />
             </div>
             <div className="caixa-conteudo">
                 <div className="caixa-conteudo-titulo">
@@ -225,29 +144,21 @@ function Home(){
                 </div>
                 <div className="caixa-conteudo-texto">
                     <div className="caixa-conteudo-1">
-                        <div className="caixa-screenshots">
-                            <img className="screenshot1" src={ScreenShot1} />
-                            <img className="screenshot1" src={ScreenShot8} />
-                            <img className="screenshot1" src={ScreenShot3} />
-                            <img className="screenshot1" src={ScreenShot4} />
-                            <img className="screenshot1" src={ScreenShot5} />
-                            <img className="screenshot1" src={ScreenShot6} />
-                            <img className="screenshot2" src={ScreenShot7} />
-                        </div>
+                        <CarroselScreenshot />
                     </div>
                     <div className="caixa-conteudo-3">
                         <label className="subtitulo-conteudo">
-                            { conteudosubtitulo3 }
+                            { conteudosubtitulo }
                         </label>
                         <div className="caixa-roadmap">
-                            <img className="roadmap" src={Roadmap} />
+                            <img className="roadmap" src={Roadmap} alt="roadmap 2020"/>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="caixa-inscricao-home">
                 <div className="caixa-conteudo-titulo">
-                    <h3> Gostaria de se Increver para receber mais novidades sobre Stoneshard ? </h3>
+                    <p> Gostaria de se Increver para receber mais novidades sobre Stoneshard ? </p>
                 </div>
                 <Link to="/inscricao">
                     <button className="botao-inscricao-home">
@@ -271,7 +182,7 @@ function Home(){
                     <label> INFO@INKSTAINSGAMES.NET </label>
                 </div>
                 <div className="caixa-contribuicoes">
-                    <label> Contribuições </label>
+                    <label> CONTRIBUIÇÕES </label>
                 </div>
             </footer>
         </div>

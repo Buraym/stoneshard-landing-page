@@ -2,11 +2,24 @@
     font-family:'roboto';
 }
 
-.card{
+#card-tela{
     display:flex;
-    width: 325px;
-    height: 675px;
-    padding-left:60px;
+    width: 60vw;
+    height: 700px;
+
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}
+
+#card{
+    display:flex;
+    min-width: 550px;
+    min-height: 300px;
+    transition:1s ease-in-out;
+    perspective: 1000;
+    transform-style: preserve-3d;
+
 
     justify-content:space-evenly;
     align-items: center;
@@ -14,10 +27,13 @@
     flex-direction:column;
 }
 
-.card-fundo{
+#card-fundo{
     width: 100%;
     height: 100%;
     margin-bottom:-40%;
+    z-index: 1;
+    transition: all 0.75s ease-out;
+    transform: rotateZ(90deg);
 }
 
 .card-parte-info{
@@ -26,7 +42,7 @@
     height: 475px;
     color: black;
     margin-top:-40%;
-    z-index:1;
+    z-index:2;
 
     justify-content:space-evenly;
     align-items: center;
@@ -35,15 +51,16 @@
 }
 
 .caixa-retrato{
-    width: 125px;
-    height: 175px;
-    margin-top:-300px;
+    width: 100px;
+    height: 135px;
+    margin-top:50px;
     padding-bottom:10px;
 }
 
-.card-retrato{
+#card-retrato{
     width: 100%;
     height: 100%;
+    transition: 0.3s ease-in-out;
 }
 
 .caixa-info{
@@ -52,7 +69,7 @@
     height: 100px;
     text-align:justify;
     word-break: break-all;
-    z-index:1;
+    z-index:3;
 
     justify-content:space-evenly;
     align-items: center;
@@ -65,8 +82,8 @@
     width: 275px;
     height: 35px;
     margin-top:-10px;
-    padding-bottom:30px;
-    margin-top:-20%;
+    padding-bottom:40px;
+    margin-top:20%;
 
     justify-content:flex-start;
     align-items: center;
@@ -74,16 +91,48 @@
     flex-direction:column;
 }
 
-.info-nome{
-    font-size:30px;
+#nome{
+    font-size: calc(20px + .5vw);
     color: #dc2f02;
     padding-bottom:5px;
-}
-.info-passado{
-    font-size:20px;
-    color: #8d99ae;
+    transition:0.3s ease-in-out;
 }
 
+#passado{
+    font-size: calc(10px + .5vw);
+    color: #8d99ae;
+    transition:0.3s ease-in-out;
+}
+
+.caixa-info-secundaria{
+    display:flex;
+    width: 2800px;
+    margin-top:10px;
+    margin-left:30px;
+    padding-right:30px;
+
+    justify-content:flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+#raca{
+    font-size: calc(8px + .5vw);
+    transition:0.3s ease-in-out;
+}
+#genero{
+    font-size: calc(8px + .5vw);
+    transition:0.3s ease-in-out;
+}
+#peculiaridade{
+    font-size: calc(8px + .5vw);
+    transition:0.3s ease-in-out;
+}
+#afinidade{
+    font-size: calc(8px + .5vw);
+    transition:0.3s ease-in-out;
+}
 .caixa-info-secundaria{
     display:flex;
     width: 275px;

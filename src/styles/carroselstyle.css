@@ -1,0 +1,30 @@
+.carrosel-estrutura{
+    display:flex;
+    width:100vw;
+    height:100vh;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.carrosel-botao{
+    outline:none;
+    background:#8338ec;
+    color: white;
+    border-radius:50%;
+    border:none;
+}
+
+.screenshot1{
+    width: 450px;
+    height: 450px;
+    padding:2px;
+    border-radius:60px;
+}
+
+.screenshot2{
+    width: 100vw;
+    height: 500px;
+    border-radius:60px;
+}

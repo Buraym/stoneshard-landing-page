@@ -13,13 +13,11 @@ function Inscricao(){
     const [nome, setNome] = useState("");
     const [email, setEmail] = useState("");
     const [telefone, setTelefone] = useState("");
-    const [data, setData] = useState("");
 
     var chat_texto = {
         nome: nome,
         email: email,
         telefone: telefone,
-        data: data
     }
 
     function handleSubmit(event){
@@ -39,16 +37,12 @@ function Inscricao(){
         setTelefone(e.target.value);
     }
 
-    function handleChangeData(e){
-        setData(e.target.value);
-    }
-
     return(
         <div className="conteudo-home">
             <header className="header-caixa">
-                <img className="header-fundo" src={ HeaderFundo }/>
+                <img className="header-fundo" src={ HeaderFundo } alt="header fundo"/>
                 <div className="header-menu">
-                    <img className="header-logo" src={ Logo }/>
+                    <img className="header-logo" src={ Logo } alt="logo empresa"/>
                     <ul className="header-lista">
                         <li className="header-lista-texto"> História </li>
                         <li className="header-lista-texto"> Mercenarios </li>
@@ -70,8 +64,6 @@ function Inscricao(){
                         <input className="input" type="text" onChange={handleChangeEmail}/>
                         Telefone: 
                         <input className="input" type="text" onChange={handleChangeTelefone}/>
-                        Data de Nascimento: 
-                        <input className="input" type="text" onChange={handleChangeData}/>
                         <div>
                             <Checkbox color="primary"/>
                             Receber Newsletter sobre as últimas atualizações ?
